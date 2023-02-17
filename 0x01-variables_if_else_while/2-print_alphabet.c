@@ -1,9 +1,7 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - this is the main function
+ * main - this is the main function that prints alphabets
  *
  * Return: always (0)
  */
