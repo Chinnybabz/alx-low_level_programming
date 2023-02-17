@@ -1,15 +1,2 @@
 #!/bin/bash
 gcc -S -masm=intel $CFILE
-
-#include <stdio.h>
-
-/**
- * main - this is the main
- *
- * Return: Always 0
- */
-
-int main(void)
-{
-	return (0);
-}
