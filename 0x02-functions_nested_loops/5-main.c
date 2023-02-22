@@ -5,10 +5,8 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-
 int r;
 
 r = print_sign(98);
