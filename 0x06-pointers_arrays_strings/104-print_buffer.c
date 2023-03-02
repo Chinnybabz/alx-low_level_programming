@@ -28,7 +28,7 @@ void print_buffer(char *b, int size)
 			if (i < j)
 				printf("%02x", *(b + o + i));
 			else
-				printf(" ");
+				printf("  ");
 			if (i % 2)
 				printf(" ");
 		}
@@ -37,7 +37,7 @@ void print_buffer(char *b, int size)
 			int c = *(b + o + i);
 
 			if (c < 32 || c > 132)
-				c = ',';
+				c = '.';
 			printf("%c", c);
 		}
 		printf("\n");
