@@ -3,9 +3,9 @@
 
 /**
  * struct dog - dog attribute
- * @name - the name of the dog
- * @age - the age of the dog
- * @owner - the owner of the dog
+ * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the owner of the dog
  *
  * Descripiton: the attribute of a dog
  */
